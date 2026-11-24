@@ -31,11 +31,11 @@ section{padding:64px 0;border-bottom:1px solid var(--line)}h3{font-size:32px;mar
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;border:1px solid var(--line);background:var(--panel)}
 .about{display:grid;grid-template-columns:1.2fr .8fr;gap:28px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px}
 .contact{font-size:28px;font-weight:800}footer{padding:28px 0;color:var(--muted);text-align:center;font-size:14px}
-@media(max-width:760px){.links{display:none}.cards{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.hero{padding-top:64px}}
+@media(max-width:760px){#regular .cards{grid-template-columns:1fr!important}.links{display:none}.cards{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.hero{padding-top:64px}}
 .card{border-top:4px solid var(--accent)}h3{color:#0b2540}.contact{color:#00877c}.card p{font-weight:400;font-size:14px;color:var(--muted);margin:10px 0 0;line-height:1.5}</style>
 </head>
 <body>
-<header class="nav"><div class="wrap"><div class="brand">OBD CAR CARE</div><nav class="links"><a href="#services">Services</a><a href="#work">Our work</a><a href="#book">Book</a></nav></div></header>
+<header class="nav"><div class="wrap"><div class="brand">OBD CAR CARE</div><nav class="links"><a href="#services">Services</a><a href="#regular">Regular washes</a><a href="#work">Our work</a><a href="#book">Book</a></nav></div></header>
 
 <main>
 <section class="hero"><div class="wrap">
@@ -59,6 +59,17 @@ section{padding:64px 0;border-bottom:1px solid var(--line)}h3{font-size:32px;mar
 <div class="card">Drying<p>We dry the car by hand to help avoid water marks, leaving a clean finish on the paint and glass.</p></div>
 </div>
 <div class="note"><strong>Small cars and SUVs only.</strong> We do not currently wash large vans. Prices vary depending on the job, so message us for a quote.</div>
+</div></section>
+
+<section id="regular"><div class="wrap">
+<h3>Regular washes</h3><p class="lead">Want your car kept clean? Book regular washes and we will come back on a schedule that suits you.</p>
+<div class="cards" style="grid-template-columns:repeat(3,1fr)">
+<div class="card">Every month<p>A regular wash once a month.</p></div>
+<div class="card">Every 2 months<p>A wash every other month.</p></div>
+<div class="card">Every 3 months<p>A wash four times a year.</p></div>
+</div>
+<div class="note"><strong>£15 to £25 per wash</strong>, depending on your car. We agree the price with you before the first wash.</div>
+<div class="actions" style="justify-content:flex-start"><a class="btn primary" href="https://wa.me/447746859758?text=Hi%20OBD%20Car%20Care%2C%20I%27d%20like%20to%20ask%20about%20regular%20washes." target="_blank" rel="noopener">Ask about regular washes</a></div>
 </div></section>
 
 <section id="work"><div class="wrap">
